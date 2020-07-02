@@ -1395,10 +1395,22 @@ public:
 #endif
         }
         else {
-            literal div_ge_0   = mk_literal(a.mk_ge(div, zero));
-            literal div_le_0   = mk_literal(a.mk_le(div, zero));
-            literal p_ge_0     = mk_literal(a.mk_ge(p, zero));
-            literal p_le_0     = mk_literal(a.mk_le(p, zero));
+#if 0
+            literal div_ge_0   =
+#endif
+                mk_literal(a.mk_ge(div, zero));
+#if 0
+            literal div_le_0   =
+#endif
+                mk_literal(a.mk_le(div, zero));
+#if 0
+            literal p_ge_0     = 
+#endif
+                mk_literal(a.mk_ge(p, zero));
+#if 0
+            literal p_le_0     =
+#endif
+                mk_literal(a.mk_le(p, zero));
 
             // q >= 0 or p = (p mod q) + q * (p div q)
             // q <= 0 or p = (p mod q) + q * (p div q)
